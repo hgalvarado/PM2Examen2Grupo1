@@ -63,15 +63,19 @@
                     Margin="5"
                     Clicked="btnGrabarAudio_Clicked"
                      />
+            <Button x:Name="btnObtenerUbicacion"
+                    Text="Obtener Ubicacion"
+                     BackgroundColor="ForestGreen"
+                    Margin="5"
+                    Clicked="btnObtenerUbicacion_Clicked"
+                     />
 
             <Button x:Name="btnSalvarUbicacion"
                     Text="Salvar Ubicacion"
                     Margin="5"
+                    Clicked="btnSalvarUbicacion_Clicked"
                     />
-            <Button x:Name="btnUbicacionSalvadas"
-                    Text="Salvar Ubicacion"
-                    Margin="5"
-                     />
+
             
         </StackLayout>
     </ContentPage.Content>

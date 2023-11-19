@@ -27,5 +27,22 @@
   <!-- Para Android 10 (API nivel 29) o superior -->
   <uses-permission android:name="android.permission.ACCESS_MEDIA_LOCATION" />
 
+
+  <uses-feature android:name="android.hardware.location" android:required="false" />
+  <uses-feature android:name="android.hardware.location.gps" android:required="false" />
+  <uses-feature android:name="android.hardware.location.network" android:required="false" />
+  <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
+
+
+
+
+  <!-- Required only if your app needs to access images or photos that other apps created -->
+  <uses-permission android:name="android.permission.READ_MEDIA_IMAGES" />
+  <!-- Required only if your app needs to access videos that other apps created -->
+  <uses-permission android:name="android.permission.READ_MEDIA_VIDEO" />
+  <!-- Required only if your app needs to access audio files that other apps created -->
+  <uses-permission android:name="android.permission.READ_MEDIA_AUDIO" />
+  
+  
   
 </manifest>
